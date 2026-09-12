@@ -1,0 +1,10 @@
+/* The plugin adds no chrome of its own: the files it writes are ordinary
+   markdown and canvas files, which the user's own theme renders. This file
+   exists because Obsidian loads it by name when it is present, so it is the
+   one place a future style belongs. */
+
+.lifeops-settings-status {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  margin-top: 0.5em;
+}
